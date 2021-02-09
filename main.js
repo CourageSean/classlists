@@ -21,9 +21,9 @@ function big() {
 document.getElementById("body") = body;
 
 function generate() {
-  let a = Math.ceil(Math.random() * 283);
-  let b = Math.ceil(Math.random() * 283);
-  let c = Math.ceil(Math.random() * 283);
+  let a = Math.ceil(Math.random() * 254);
+  let b = Math.ceil(Math.random() * 254);
+  let c = Math.ceil(Math.random() * 254);
 
   body.style.backgroundColor = "rgb(" + a + "," + b + "," + c + ")";
 }
